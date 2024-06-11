@@ -1,12 +1,12 @@
 import numpy as np
 
 
-L = 1#float(input("length of composite structure:  "))
-Ni = 4#int(input("Number of Layers: "))
+L = float(input("length of composite structure:  "))
+Ni = int(input("Number of Layers: "))
 N = int (Ni + 1)
-Tc = 150#float(input("temperature at core: "))
-Ta = 20#float(input("Ambience temperature: "))
-ho = 10#float(input("thermal conductivity of fluid in ambience: "))
+Tc = float(input("temperature at core: "))
+Ta = float(input("Ambience temperature: "))
+ho = float(input("thermal conductivity of fluid in ambience: "))
 
 Rx = []
 k =  []
